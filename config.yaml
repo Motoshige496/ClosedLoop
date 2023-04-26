@@ -1,0 +1,17 @@
+### cbpy ###
+n_lfp: 32
+n_analogin: 3
+CBPY_BUF_LEN: 2000
+DATA_BUF_LEN: 5000
+
+### preproc ###
+Fs: 2000
+l_freq: 10
+h_freq: 999 # or Fs / 2 -1
+notch_freq: 50
+threshold: 0.1
+target_window: 600
+
+### arduino ###
+serial_port: 3
+srate: 9600
